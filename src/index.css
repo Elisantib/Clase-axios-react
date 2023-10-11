@@ -1,0 +1,22 @@
+#root {
+  /* selector por ID */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+main {
+  margin-top: 64px;
+  min-height: calc(100vh - 114px);
+}
+footer {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  height: 50px;
+}
+.content-post-form {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
